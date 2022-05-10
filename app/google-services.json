@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "717628473030",
+    "project_id": "ktra-thck",
+    "storage_bucket": "ktra-thck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717628473030:android:e40fa406d17b2f38bae1c7",
+        "android_client_info": {
+          "package_name": "com.example.a19518901_hocongviet_t3_10_12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717628473030-17sdg0u7ai01q9nbd4h345pofl90tvfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJbmHeFNSrITx1ViON-FpDQtt5elvqFc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717628473030-17sdg0u7ai01q9nbd4h345pofl90tvfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
