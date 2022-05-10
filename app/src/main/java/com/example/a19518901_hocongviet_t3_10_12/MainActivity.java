@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         edtEmail=findViewById(R.id.edtGmail);
         firebaseAuth=FirebaseAuth.getInstance();
         btnCreate.setOnClickListener(view -> {
-         //   Intent i=new Intent(this,RegisterActivity.class);
+            Intent i=new Intent(this,RegisterActivity.class);
             startActivity(i);
         });
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 if(task.isSuccessful()){
                     DatabaseReference rf= FirebaseDatabase.getInstance().getReference("users").child(
                             FirebaseAuth.getInstance().getCurrentUser().getUid()).child("role");
-
                     edtPass.setText("");
                     Toast.makeText(MainActivity.this, "Login success!", Toast.LENGTH_SHORT).show();
                 }else{
