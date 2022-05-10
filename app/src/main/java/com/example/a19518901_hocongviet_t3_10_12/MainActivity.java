@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 Login();
             }
         });
-
+        i=new Intent(this,AddAcitivity.class);
     }
 
     private void Login() {
@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                             FirebaseAuth.getInstance().getCurrentUser().getUid()).child("role");
                     edtPass.setText("");
                     Toast.makeText(MainActivity.this, "Login success!", Toast.LENGTH_SHORT).show();
+                    startActivity(i);
                 }else{
                     Toast.makeText(MainActivity.this, "Login failed!", Toast.LENGTH_SHORT).show();
                 }

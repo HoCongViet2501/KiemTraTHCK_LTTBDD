@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/LaptrinhTBdidong/code/19518901_HoCongViet_T3_10_12/app/src/main/res/drawable-v24/border.xml" value="0.187" />
         <entry key="..\:/LaptrinhTBdidong/code/19518901_HoCongViet_T3_10_12/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/LaptrinhTBdidong/code/19518901_HoCongViet_T3_10_12/app/src/main/res/layout/add_book.xml" value="0.25416666666666665" />
+        <entry key="..\:/LaptrinhTBdidong/code/19518901_HoCongViet_T3_10_12/app/src/main/res/layout/list_book.xml" value="0.25416666666666665" />
+        <entry key="..\:/LaptrinhTBdidong/code/19518901_HoCongViet_T3_10_12/app/src/main/res/layout/list_book_item.xml" value="0.25416666666666665" />
         <entry key="..\:/LaptrinhTBdidong/code/19518901_HoCongViet_T3_10_12/app/src/main/res/layout/register_activity.xml" value="0.18489583333333334" />
       </map>
     </option>
